@@ -1,0 +1,73 @@
+.right-panel {
+    height: 100%;
+    padding-top: 5px;
+    background-color: white;
+    overflow-y: scroll;
+
+    .content-panel {
+        padding: 5px 12px;
+    }
+    .ant-tabs-bar {
+        border-bottom-color: gainsboro;
+        margin: 0;
+    }
+    .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+        border-color: gainsboro;
+    }
+    .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+        border-color: gainsboro;
+        border-bottom: 1px solid #fff;
+    }
+    .ant-tabs-nav {
+        margin-left: 5px;
+    }
+    .ant-tabs {
+        background-color: white;
+    }
+
+    .ant-table-wrapper,
+    .ant-spin-nested-loading,
+    .ant-spin-container,
+    .ant-table.ant-table-fixed-header,
+    .ant-table-container,
+    .ant-table-body,
+    .ant-table,
+    .ant-table-container,
+    .ant-table-content,
+    .ant-table-tbody,
+    .ant-table-content table {
+        height: 100%;
+    }
+    .ant-table-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .ant-table-header {
+        overflow: unset !important;
+    }
+    .ant-table thead > tr > th, .ant-table tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+        color: black;
+        word-break: break-all;
+    }
+    .ant-table-column-sorters {
+        display: flex;
+        justify-content: space-between;
+    }
+    .ant-table-wrapper {
+        cursor: pointer;
+    }
+    tr td:first-child {
+        display: block;
+    }
+}
+
+.size {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+}

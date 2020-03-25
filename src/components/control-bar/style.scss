@@ -1,0 +1,25 @@
+.control-bar {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    min-width: 900px;
+
+    .input-filter {
+        display: flex;
+        align-items: center;
+
+        & > span:first-child {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .ant-input-affix-wrapper {
+            width: 400px;
+            height: 100%;
+        }
+        .ant-input-suffix {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

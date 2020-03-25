@@ -1,0 +1,5 @@
+export const ADD_PACKET = 'ADD_PACKET';
+export const DELETE_PACKET = 'DELETE_PACKET';
+export const DELETE_ALL_PACKETS = 'DELETE_ALL_PACKETS';
+
+export const UPDATE_FILTER = 'UPDATE_FILTER';
