@@ -19,7 +19,7 @@ class ControlBar extends Component {
                     />
                 </div>
                 <div>
-                    <Button type="secondary" 
+                    <Button type="ghost" 
                         shape="round" 
                         icon={<FolderOpenOutlined />} 
                         size="large"
